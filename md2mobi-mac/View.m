@@ -12,20 +12,20 @@
 
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
-    
-    [self registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
 }
 
 - (NSDragOperation)draggingEntered:(id<NSDraggingInfo>)sender {
-    [self.delegate dragIn];
+    self.material = NSVisualEffectMaterialMediumLight;
     return NSDragOperationCopy;
 }
 
 - (void)draggingExited:(id<NSDraggingInfo>)sender {
-    [self.delegate dragOut];
+    self.material = NSVisualEffectMaterialLight;
+    [self setNeedsDisplay:YES];
 }
 
 - (BOOL)prepareForDragOperation:(id<NSDraggingInfo>)sender {
+    self.material = NSVisualEffectMaterialLight;
     return YES;
 }
 

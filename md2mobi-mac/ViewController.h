@@ -7,11 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "DropDelegate.h"
 
-@interface ViewController : NSViewController <DropDelegate>
-@property (weak) IBOutlet NSTextField *tips;
-
+@interface ViewController : NSViewController
 
 @end
 

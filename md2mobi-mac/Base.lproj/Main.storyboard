@@ -716,6 +716,9 @@
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <outlet property="delegate" destination="m2S-Jp-Qdl" id="OOu-Th-GBf"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <constraints>
@@ -724,9 +727,6 @@
                             <constraint firstAttribute="trailing" secondItem="WPa-sA-2ej" secondAttribute="trailing" id="Nw3-x2-Dc1"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="tips" destination="WPa-sA-2ej" id="Ski-gt-69r"/>
-                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

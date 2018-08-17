@@ -12,7 +12,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // self.view.material = NSVisualEffectMaterialUltraDark;
+    ((NSVisualEffectView *) self.view).material = NSVisualEffectMaterialLight;
+    [self.view registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
     // Do any additional setup after loading the view.
 }
 
@@ -20,20 +21,6 @@
     [super setRepresentedObject:representedObject];
 
     // Update the view, if already loaded.
-}
-
-- (void)dragIn {
-    [self.tips setTextColor:[NSColor shadowColor]];
-    NSLog(@"dragIn in controller");
-}
-
-- (void)dragOut {
-    [self.tips setTextColor:[NSColor textColor]];
-    NSLog(@"dragOut in controller");
-}
-
-- (void)dragDrop:(NSArray<NSString *> *)list {
-    
 }
 
 @end

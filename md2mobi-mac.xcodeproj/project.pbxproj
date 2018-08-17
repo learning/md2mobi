@@ -31,7 +31,6 @@
 		B084A5CA2125774C00AB7231 /* WindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
 		B084A5CC21257B0D00AB7231 /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		B084A5CD21257B0D00AB7231 /* View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
-		B084A5D22125866300AB7231 /* DropDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +71,6 @@
 				B0517FC42125764C00C655E5 /* ViewController.m */,
 				B084A5CC21257B0D00AB7231 /* View.h */,
 				B084A5CD21257B0D00AB7231 /* View.m */,
-				B084A5D22125866300AB7231 /* DropDelegate.h */,
 				B0517FC62125764D00C655E5 /* Assets.xcassets */,
 				B0517FC82125764D00C655E5 /* Main.storyboard */,
 				B0517FCB2125764D00C655E5 /* Info.plist */,

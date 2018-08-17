@@ -7,10 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "DropDelegate.h"
 
-@interface View : NSView
-
-@property (nonatomic, assign) id<DropDelegate> delegate;
+@interface View : NSVisualEffectView
 
 @end

@@ -18,7 +18,7 @@
     [super windowDidLoad];
     self.window.styleMask = self.window.styleMask | NSFullSizeContentViewWindowMask;
     self.window.titlebarAppearsTransparent = true;
-    self.window.appearance = [NSAppearance appearanceNamed:NSAppearanceNameVibrantDark];
+    self.window.appearance = [NSAppearance appearanceNamed:NSAppearanceNameVibrantLight];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reopen) name:@"reopen" object:nil];
 }
 
