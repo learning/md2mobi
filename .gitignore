@@ -63,3 +63,6 @@ fastlane/test_output
 iOSInjectionProject/
 
 .DS_Store
+md2mobi-win/obj
+md2mobi-win/bin
+.vs
