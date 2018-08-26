@@ -24,5 +24,10 @@ namespace md2mobi_win
     {
       InitializeComponent();
     }
+
+    private void Window_DragEnter(object sender, DragEventArgs e)
+    {
+
+    }
   }
 }
